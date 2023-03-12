@@ -15,27 +15,39 @@ header{
     flex-direction: column;
     color: #f9faf8;
     padding-top: 16px;
-padding-bottom: 64px;
+    padding-bottom: 64px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
 .top{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-grow: 1;
     padding-bottom: 32px;
+    padding-left: 256px;
+    padding-right: 256px;
+}
+
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .Hcontainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 256px;
+    padding-right: 256px;
     flex-grow: 2;
 }
 
 #img{
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-width: 400px;
 }
 
@@ -46,6 +58,8 @@ padding-bottom: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 ul{
@@ -54,7 +68,9 @@ ul{
 }
 
 li{
+    font-size: 18px;
     list-style-type: none;
+    color: #e5e7eb;
 }
 
 a{
@@ -70,7 +86,9 @@ nav{
 
 #nTitle{
     align-self: center;
-    font-size: 32px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
     padding-bottom: 16px;
     padding-top: 16px;
 }
@@ -93,11 +111,14 @@ nav{
 article{
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: gray;
+    background-color: #e5e7eb;
+    font-size: 32px;
+    font-style: italic;
 }
 
 .container{
